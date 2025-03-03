@@ -9,12 +9,12 @@ All the current and upcoming projects are listed in the [projects](projects) fol
 
 ### Upcoming
 
-| Title               | Languages           | Reviewers        |
-|---------------------|---------------------|------------------|
-| CezRoom             | TypeScript & Python | Utku Biçer       |
-| ITUGuessr           | TypeScript & Python | Ertuğrul Şentürk |
-| Mailo               | Python              | Utku Biçer       |
-| Reverse Turing Test | TypeScript          | Ertuğrul Şentürk |
+| Title               | Languages           | Reviewers        | Accepting Contributors |
+|---------------------|---------------------|------------------|------------------------|
+| CezRoom             | TypeScript & Python | Utku Biçer       | Yes                    |
+| ITUGuessr           | TypeScript & Python | Ertuğrul Şentürk | Yes                    |
+| Mailo               | Python              | Utku Biçer       | Yes                    |
+| Reverse Turing Test | TypeScript          | Ertuğrul Şentürk | Yes                    |
 
 
 ### Current
@@ -27,7 +27,17 @@ There are no current projects, for now...
 If you want to work on the projects, there are some conventions and guidelines that you should follow.
 
 
-### Git Usage
+### General Communication
+
+For most parts, communication through GitHub will be in English. If you lack the ability to express yourself in some parts, Turkish is acceptable. Yet for writing code, documentation, issues, PRs and comments; it is desired to use English.
+
+This is mainly because:
+- There may be people who do not speak Turkish
+- Most of the jargon in programming is in English
+- In the field, you will need to use English in most cases
+
+
+### Git & GitHub Usage
 
 All the projects will be managed through GitHub, obeying the following rules:
 
@@ -69,3 +79,10 @@ Basically we will use:
 - 2 spaces for indentation
 
 Other language conventions will be added here in the future.
+
+
+### Documentation
+
+**Code Documentation**: There is no certain rule for writing in-code documentation, but try to be as clear as possible. For function, methods, classes and scripts, try to write at least a small description of what it does.
+
+**General Documentation**: In general, when you are documenting your work, how-to or setup guides etc, create a new markdown file in the `docs` directory of the project. If there is no `docs` directory, create one. It is essential that we use markdown format.
